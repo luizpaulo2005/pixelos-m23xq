@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="m23-fork" fetch="https://github.com/luizpaulo2005" />
+  <project path="device/samsung/m23xq" name="android_device_samsung_m23xq" remote="m23-fork" revision="17.0-rebase" />
+  <project path="vendor/samsung/m23xq" name="android_vendor_samsung_m23xq" remote="m23-fork" revision="17.0" />
+  <project path="kernel/samsung/sm7225" name="android_kernel_samsung_sm7225" remote="m23-fork" revision="lineage-23.2-bpf" clone-depth="1" />
+  <!-- IMS (VoLTE/VoWiFi): krazey forks paired with CarrierSettings -->
+  <remote name="krazey" fetch="https://github.com/krazey" />
+  <remove-project name="platform/packages/modules/ImsMedia" />
+  <remove-project name="platform/packages/modules/ImsStack" />
+  <project path="packages/modules/ImsMedia" name="ImsMedia" remote="krazey" revision="android17-release" />
+  <project path="packages/modules/ImsStack" name="ImsStack" remote="krazey" revision="android17-release" />
+  <project path="packages/apps/CarrierSettings" name="CarrierSettings" remote="krazey" revision="main" />
+  <!-- hardware/samsung: namespace + VINTF matrix required by device tree -->
+  <remote name="los" fetch="https://github.com/LineageOS" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="m23-fork" revision="lineage-24.0" clone-depth="1" />
+</manifest>
