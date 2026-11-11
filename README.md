@@ -101,7 +101,7 @@ From a previous build of this ROM: Recovery > **Apply update > Apply from ADB** 
 
 - Device tree: [luizpaulo2005/android_device_samsung_m23xq](https://github.com/luizpaulo2005/android_device_samsung_m23xq/tree/17.0-rebase)
 - Vendor: [luizpaulo2005/android_vendor_samsung_m23xq](https://github.com/luizpaulo2005/android_vendor_samsung_m23xq/tree/17.0)
-- Kernel: [luizpaulo2005/android_kernel_samsung_sm7225](https://github.com/luizpaulo2005/android_kernel_samsung_sm7225/tree/lineage-23.2-bpf)
+- Kernel: [luizpaulo2005/android_kernel_samsung_sm7225](https://github.com/luizpaulo2005/android_kernel_samsung_sm7225/tree/seventeen)
 - Samsung hardware: [luizpaulo2005/android_hardware_samsung](https://github.com/luizpaulo2005/android_hardware_samsung/tree/lineage-24.0)
 - IMS: [krazey/ImsStack](https://github.com/krazey/ImsStack) and [krazey/ImsMedia](https://github.com/krazey/ImsMedia)
 - Local manifest: [m23xq.xml](m23xq.xml)
