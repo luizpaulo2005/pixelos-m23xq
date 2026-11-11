@@ -9,6 +9,7 @@ PixelOS is an AOSP-based custom ROM that brings the Pixel look and features, wit
 | | |
 |---|---|
 | **Device** | Samsung Galaxy M23 5G (SM-M236B, m23xq) |
+| **Tested on** | SM-M236B/DS, Brazilian variant only. It should also work on the Galaxy F23 5G (SM-E236B), but that is untested. |
 | **Android** | 17 (security patch 2026-11-01) |
 | **Kernel** | Linux 4.19 |
 | **Based on** | PixelOS 17 (seventeen) and akifakif32's m23xq sources |
@@ -23,9 +24,9 @@ PixelOS is an AOSP-based custom ROM that brings the Pixel look and features, wit
 
 ## Downloads
 
-- **ROM zip:** [SourceForge](https://sourceforge.net/projects/pixelos-m23xq/files/)
+- **ROM zip:** [SourceForge](https://sourceforge.net/projects/pixelos-m23xq/files/17/)
 - **Images and source manifest:** [GitHub Releases](https://github.com/luizpaulo2005/pixelos-m23xq/releases)
-- **Support and discussion:** XDA thread (coming soon)
+- **Support and discussion:** [XDA thread](https://xdaforums.com/t/rom-17-unofficial-pixelos-17-for-samsung-galaxy-m23-5g-m23xq.4808278/)
 
 | File | Use |
 |---|---|
